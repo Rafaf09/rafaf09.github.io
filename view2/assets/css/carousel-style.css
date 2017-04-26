@@ -1,0 +1,152 @@
+body {
+	margin: 0px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#background {
+	background: url("../img/bocanada.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#modal-overlay {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#hero {
+	opacity: 0.8;
+    position: absolute;
+    color: #3AD8FF;
+    bottom: 60px;
+    right: 120px;
+    text-align: right;
+    font-size: 70px;
+	font-family: 'Fredericka the Great', cursive;
+}
+
+#hero:hover {
+	cursor: pointer;
+	opacity: 1.0;
+}
+
+#nav-list {
+	position: fixed;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	top: 0px;
+	width: 100%;
+	overflow: hidden;
+	background-color: #49274a;
+}
+
+.navbar-item {
+	float: left;
+}
+
+li a {
+	font-weight: 700;
+	font-size: 16px;
+	color: #FCD86D;
+	display: block;
+	padding: 14px 30px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #863E84;
+}
+
+#modal-overlay {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#modal-container {
+	display: none;
+    width:100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.carousel-container {
+	width: 960px;
+	margin: auto;
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+}
+
+#carousel {
+	width: 4800px;
+	height: 100%;
+	margin-left: 0px;
+	-webkit-transition: all 0.3s;
+}
+
+.carousel-item {
+	width: 960px;
+	position: relative;
+	height: 100%;
+	float: left;
+}
+
+#carousel-prev {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    left: 60px;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    -webkit-transition: all 0.3s;
+}
+
+/* Styling for the carousel next button */
+#carousel-next {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    right: 60px;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    -webkit-transition: all 0.3s;
+}
+
+/* Styling for the quotes and text in each section */
+.quote, .text {
+	position: absolute;
+	font-size: 36px;
+	color: white;
+	font-weight: 700;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+   	transform: translateX(-50%) translateY(-50%);
+}
+
+/* Styling for the author text in each quote */
+.author {
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: .2rem;
+	text-transform: uppercase;
+	margin-top: 10px;
+	text-align: center;
+}
